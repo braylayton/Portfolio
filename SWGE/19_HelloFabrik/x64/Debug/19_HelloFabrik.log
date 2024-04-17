@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\IMGUI\IMGUI.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\TinyXml2\TinyXml2.vcxproj' does not exist.
+  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\19_HelloFabrik\GameApp.cpp(81,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  WinMain.cpp
+  Generating Code...
+  19_HelloFabrik.vcxproj -> B:\Visual_Studio_Projects\SWGE\x64\Debug\19_HelloFabrik.exe

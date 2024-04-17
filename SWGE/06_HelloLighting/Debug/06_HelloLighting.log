@@ -1,0 +1,7 @@
+﻿  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\06_HelloLighting\GameApp.cpp(110,66): error C2660: 'SWGE::Graphics::Camera::GetPerspectiveMatrix': function does not take 2 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\Camera.h(39,16): message : see declaration of 'SWGE::Graphics::Camera::GetPerspectiveMatrix'
+B:\Visual_Studio_Projects\SWGE\06_HelloLighting\GameApp.cpp(116,9): error C2039: 'difuse': is not a member of 'SWGE::Graphics::Light'
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\Light.h(9): message : see declaration of 'SWGE::Graphics::Light'
+  WinMain.cpp
+  Generating Code...

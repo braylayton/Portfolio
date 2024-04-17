@@ -1,0 +1,2 @@
+﻿GameApp.obj : error LNK2019: unresolved external symbol "public: static void __cdecl SWGE::Graphics::MeshBuilder::CreateCylinderSkinned(class SWGE::Graphics::SkinnedMesh &,float,unsigned int,unsigned int,struct SWGE::Math::Vector3)" (?CreateCylinderSkinned@MeshBuilder@Graphics@SWGE@@SAXAAVSkinnedMesh@23@MIIUVector3@Math@3@@Z) referenced in function "private: virtual void __thiscall GameApp::OnInitialize(void)" (?OnInitialize@GameApp@@EAEXXZ)
+B:\Visual_Studio_Projects\SWGE\Debug\17_HelloTenticalArm.exe : fatal error LNK1120: 1 unresolved externals

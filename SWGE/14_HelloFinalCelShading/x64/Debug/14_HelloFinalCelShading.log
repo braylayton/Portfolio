@@ -1,0 +1,7 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\TinyXml2\TinyXml2.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj' does not exist.
+  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\14_HelloFinalCelShading\GameApp.cpp(74,47): warning C4244: '=': conversion from 'uint32_t' to 'float', possible loss of data
+B:\Visual_Studio_Projects\SWGE\14_HelloFinalCelShading\GameApp.cpp(75,49): warning C4244: '=': conversion from 'uint32_t' to 'float', possible loss of data
+B:\Visual_Studio_Projects\SWGE\14_HelloFinalCelShading\GameApp.cpp(93,115): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data
+  14_HelloFinalCelShading.vcxproj -> B:\Visual_Studio_Projects\SWGE\x64\Debug\14_HelloFinalCelShading.exe

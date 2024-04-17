@@ -1,0 +1,27 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\IMGUI\IMGUI.vcxproj' does not exist.
+  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(55,36): error C2065: 'mCubeMesh': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(56,40): error C2065: 'mUVSphereMesh': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(59,2): error C2065: 'mDiffuseMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(60,2): error C2065: 'mNormalMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(61,2): error C2065: 'mSpecularMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(62,2): error C2065: 'mDisplacementMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(65,25): error C2065: 'mUVSphereMesh': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(94,130): error C2660: 'SWGE::Graphics::SceneManager::CreateSamplerNode': function does not take 2 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\SceneNodeInc\SceneManager.h(53,15): message : see declaration of 'SWGE::Graphics::SceneManager::CreateSamplerNode'
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(102,30): error C2065: 'mDiffuseMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(104,31): error C2065: 'mSpecularMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(106,29): error C2065: 'mNormalMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(108,35): error C2065: 'mDisplacementMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(114,34): error C3536: 'samplerNode': cannot be used before it is initialized
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(114,34): error C2664: 'bool SWGE::Graphics::SceneNode::AddChild(SWGE::Graphics::SceneNode *)': cannot convert argument 1 from 'int' to 'SWGE::Graphics::SceneNode *'
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(114,23): message : Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or parenthesized function-style cast
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\SceneNodeInc\SceneNode.h(15,7): message : see declaration of 'SWGE::Graphics::SceneNode::AddChild'
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(135,2): error C2065: 'mDisplacementMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(136,2): error C2065: 'mSpecularMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(137,2): error C2065: 'mNormalMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(138,2): error C2065: 'mDiffuseMap': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(139,2): error C2065: 'mCubeMesh': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\10_HelloSceneManager\GameApp.cpp(140,2): error C2065: 'mUVSphereMesh': undeclared identifier
+  WinMain.cpp
+  Generating Code...

@@ -1,0 +1,1 @@
+B:\Visual_Studio_Projects\SWGE\External\DirectXTK\Bin\Desktop_2022\Win32\Debug\DirectXTK.lib

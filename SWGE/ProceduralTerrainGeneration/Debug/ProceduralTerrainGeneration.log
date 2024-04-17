@@ -1,0 +1,153 @@
+﻿  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(38,4): error C3861: 'ImGui_ImplDX11_InvalidateDeviceObjects': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(39,4): error C3861: 'ImGui_ImplDX11_CreateDeviceObjects': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(74,47): warning C4244: '=': conversion from 'uint32_t' to 'float', possible loss of data
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(75,49): warning C4244: '=': conversion from 'uint32_t' to 'float', possible loss of data
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(113,2): error C3861: 'IMGUI_CHECKVERSION': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(114,2): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(114,9): error C3861: 'CreateContext': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(115,2): error C2065: 'ImGuiIO': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(115,11): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(115,16): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(115,23): error C3861: 'GetIO': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(115,38): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(117,2): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(117,20): error C2065: 'ImGuiConfigFlags_NavEnableKeyboard': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(118,2): error C3861: 'ImGui_ImplDX11_Init': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(127,2): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(127,9): error C3861: 'StyleColorsClassic': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(128,2): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(278,2): error C3861: 'ImGui_ImplDX11_Shutdown': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(279,2): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(279,9): error C3861: 'DestroyContext': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(296,2): error C3861: 'ImGui_ImplDX11_NewFrame': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(300,3): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(300,27): error C3861: 'ImVec2': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(300,43): error C2065: 'ImGuiCond_FirstUseEver': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(300,10): error C3861: 'SetNextWindowPos': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(301,3): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(301,10): error C3861: 'ShowDemoWindow': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(308,2): error C2065: 'ImGuiIO': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(308,11): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(308,16): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(308,23): error C3861: 'GetIO': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(309,2): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(309,16): error C3861: 'ImVec2': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(310,2): error C2065: 'io': undeclared identifier
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(359,2): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(359,9): error C3861: 'Render': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(360,32): error C2653: 'ImGui': is not a class or namespace name
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(360,39): error C3861: 'GetDrawData': identifier not found
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\GameApp.cpp(360,2): error C3861: 'ImGui_ImplDX11_RenderDrawData': identifier not found
+  QuadTree.cpp
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(9,26): error C2039: 'function': is not a member of 'std'
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\predefined C++ types (compiler internal)(338): message : see declaration of 'std'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(9,34): error C2061: syntax error: identifier 'function'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(10,27): error C2039: 'function': is not a member of 'std'
+B:\Visual_Studio_Projects\SWGE\ProceduralTerrainGeneration\predefined C++ types (compiler internal)(338): message : see declaration of 'std'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(10,35): error C2061: syntax error: identifier 'function'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(22,5): error C2061: syntax error: identifier 'CreateFunc'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(39,13): error C3646: 'mCreate': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(39,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(40,14): error C3646: 'mDestroy': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(40,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(29,34): error C3861: 'mCreate': identifier not found
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(30,35): error C3861: 'mDestroy': identifier not found
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaClass.h(15,13): error C2039: 'CreateFunc': is not a member of 'SWGE::Core::MetaType'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaType.h(6): message : see declaration of 'SWGE::Core::MetaType'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaClass.h(13,11): error C2061: syntax error: identifier 'CreateFunc'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(6,36): error C2039: 'Application': is not a member of 'SWGE::Core'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaUtil.h(5): message : see declaration of 'SWGE::Core'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(7,1): error C2504: 'Application': base class undefined
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(16,8): error C2039: 'Window': is not a member of 'SWGE::Core'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaUtil.h(5): message : see declaration of 'SWGE::Core'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(16,15): error C3646: 'mWindow': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(16,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(17,8): error C2039: 'Timer': is not a member of 'SWGE::Core'
+B:\Visual_Studio_Projects\SWGE\Core\Inc\MetaUtil.h(5): message : see declaration of 'SWGE::Core'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(17,14): error C3646: 'mTimer': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(17,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(19,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(19,18): error C2039: 'ColorFormat': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(19,30): error C3646: 'mColorFormat': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(19,42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(21,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(21,18): error C2039: 'Camera': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(21,25): error C3646: 'mCamera': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(21,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(22,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(22,18): error C2039: 'Camera': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(22,25): error C3646: 'mDepthCamera': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(22,37): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(24,8): error C3083: 'Physics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(24,17): error C2039: 'PhysicsWorld': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(24,30): error C3646: 'mPhysicsWorld': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(24,43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(25,8): error C3083: 'Physics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(25,17): error C3083: 'PhysicsWorld': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(25,31): error C2039: 'Settings': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(25,40): error C3646: 'settings': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(25,48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(27,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(27,18): error C2039: 'Light': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(27,24): error C3646: 'mLight': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(27,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(28,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(28,18): error C2039: 'Material': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(28,27): error C3646: 'mMaterial': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(28,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(30,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(30,18): error C2039: 'MeshBuffer': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(30,29): error C3646: 'mMeshBuffer': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(30,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(31,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(31,18): error C2039: 'MeshBuffer': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(31,29): error C3646: 'mRenderMeshBuffer': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(31,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(33,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(33,18): error C2039: 'VertexShader': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(33,31): error C3646: 'mVertexShader': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(33,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(34,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(34,18): error C2039: 'PixelShader': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(34,30): error C3646: 'mPixelShader': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(34,42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(36,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(36,18): error C2039: 'Animation': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(36,28): error C3646: 'mAnimation': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(36,38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(37,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(37,18): error C2039: 'AnimationBuilder': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(37,35): error C3646: 'mAnimationBuilder': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(37,52): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(39,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(39,18): error C2039: 'TransformNode': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(39,31): error C2143: syntax error: missing ';' before '*'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(39,31): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(39,47): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(40,8): error C3083: 'Graphics': the symbol to the left of a '::' must be a type
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(40,18): error C2039: 'SceneManager': is not a member of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(3): message : see declaration of 'SWGE'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(40,31): error C3646: 'mSceneManager': unknown override specifier
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(40,44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(12,7): error C3668: 'SWGE::GameEngine::GameApp::OnInitialize': method with override specifier 'override' did not override any base class methods
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(13,7): error C3668: 'SWGE::GameEngine::GameApp::OnTerminate': method with override specifier 'override' did not override any base class methods
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameApp.h(14,7): error C3668: 'SWGE::GameEngine::GameApp::OnUpdate': method with override specifier 'override' did not override any base class methods
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameObject.h(60,22): error C3861: 'mComponents': identifier not found
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameObject.h(62,25): error C3861: 'newComponent': identifier not found
+  WinMain.cpp
+  Generating Code...

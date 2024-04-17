@@ -1,0 +1,279 @@
+Playback::frame, 0
+Playback::version, 2, 131073
+#
+# FMOD v2.00.01 command capture
+#   System::setSoftwareChannels(numsoftwarechannels: 64)
+#   System::setDSPBufferSize(bufferlength: 1024, numbuffers: 4)
+#   System::setSoftwareFormat(samplerate: 48000, speakermode: 6, numrawspeakers: 6)
+#   System::setAdvancedSettings(settings: {maxMPEGCodecs: 0, maxADPCMCodecs: 0, maxXMACodecs: 0, maxVorbisCodecs: 0, maxAT9Codecs: 0, maxFADPCMCodecs: 0, maxPCMCodecs: 0,
+#       ASIONumChannels: 0, vol0virtualvol: 0, defaultDecodeBufferSize: 400, geometryMaxFadeTime: 0,
+#       distanceFilterCenterFreq: 1500, reverb3Dinstance: 0, DSPBufferPoolSize: 8, stackSizeStream: 65536, stackSizeNonBlocking: 65536, stackSizeMixer: 49152,
+#       resamplerMethod: 2, commandQueueSize: 0, randomSeed: 0})
+#   Studio::System::setAdvancedSettings(settings: {commandqueuesize: 32768, handleinitialsize: 32768, studioupdateperiod: 20, idlesampledatapoolsize: 262144})
+#   Studio::System::initialize(maxchannels: 1024, studioflags: 0x00000000, flags: 0x00020000)
+#
+Playback::frame, 0
+# Printing initial instance state
+System::loadBankFile, ../media/Master Bank.bank, 0, 2101504
+Playback::loadBankFinished, {816d4737-171a-41e7-a9f0-32996ece71cb}, 2101504, 0
+System::loadBankFile, ../media/Master Bank.strings.bank, 0, 2101760
+Playback::loadBankFinished, {197067e3-6661-0da5-2fb9-b8679f3d7753}, 2101760, 0
+System::loadBankFile, ../media/Vehicles.bank, 0, 2102016
+Playback::loadBankFinished, {34f54f36-2a90-4a3c-a280-e09632cf8257}, 2102016, 0
+System::loadBankFile, ../media/SFX.bank, 0, 2102272
+Playback::loadBankFinished, {561cd480-bd2b-4c2e-b919-d775f9c4f409}, 2102272, 0
+System::setListenerAttributes, 0, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+# Finished printing initial instance state
+Playback::frame, 1024
+System::getEvent, {7aa5e8f1-8ec2-42c6-b465-1241a603a055}, 2102528
+EventDescription::createInstance, 2102528, 2103296
+EventInstance::setParameterByName, 2103296, RPM, 650, false
+EventInstance::start, 2103296
+System::setListenerAttributes, 0, {{0,0,0},{0,0,0},{0,0,1},{0,1,0}}
+EventInstance::set3DAttributes, 2103296, {{0,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 53248
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2104320
+EventInstance::setVolume, 2104320, 0
+EventInstance::setVolume, 2104320, 0.1
+EventInstance::setVolume, 2104320, 0.2
+EventInstance::setVolume, 2104320, 0.3
+EventInstance::setVolume, 2104320, 0.4
+EventInstance::setVolume, 2104320, 0.5
+EventInstance::setVolume, 2104320, 0.6
+EventInstance::setVolume, 2104320, 0.7
+EventInstance::setVolume, 2104320, 0.8
+EventInstance::setVolume, 2104320, 0.9
+EventInstance::start, 2104320
+EventInstance::release, 2104320
+Playback::frame, 44032
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2105088
+EventInstance::setVolume, 2105088, 0
+EventInstance::setVolume, 2105088, 0.1
+EventInstance::setVolume, 2105088, 0.2
+EventInstance::setVolume, 2105088, 0.3
+EventInstance::setVolume, 2105088, 0.4
+EventInstance::setVolume, 2105088, 0.5
+EventInstance::setVolume, 2105088, 0.6
+EventInstance::setVolume, 2105088, 0.7
+EventInstance::setVolume, 2105088, 0.8
+EventInstance::setVolume, 2105088, 0.9
+EventInstance::start, 2105088
+EventInstance::release, 2105088
+Playback::frame, 19456
+EventInstance::set3DAttributes, 2103296, {{-1,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 20480
+EventInstance::set3DAttributes, 2103296, {{-2,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 19456
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2105856
+EventInstance::setVolume, 2105856, 0
+EventInstance::setVolume, 2105856, 0.1
+EventInstance::setVolume, 2105856, 0.2
+EventInstance::setVolume, 2105856, 0.3
+EventInstance::setVolume, 2105856, 0.4
+EventInstance::setVolume, 2105856, 0.5
+EventInstance::setVolume, 2105856, 0.6
+EventInstance::setVolume, 2105856, 0.7
+EventInstance::setVolume, 2105856, 0.8
+EventInstance::setVolume, 2105856, 0.9
+EventInstance::start, 2105856
+EventInstance::release, 2105856
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2106624
+EventInstance::setVolume, 2106624, 0
+EventInstance::setVolume, 2106624, 0.1
+EventInstance::setVolume, 2106624, 0.2
+EventInstance::setVolume, 2106624, 0.3
+EventInstance::setVolume, 2106624, 0.4
+EventInstance::setVolume, 2106624, 0.5
+EventInstance::setVolume, 2106624, 0.6
+EventInstance::setVolume, 2106624, 0.7
+EventInstance::setVolume, 2106624, 0.8
+EventInstance::setVolume, 2106624, 0.9
+EventInstance::start, 2106624
+EventInstance::release, 2106624
+Playback::frame, 9216
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2107392
+EventInstance::setVolume, 2107392, 0
+EventInstance::setVolume, 2107392, 0.1
+EventInstance::setVolume, 2107392, 0.2
+EventInstance::setVolume, 2107392, 0.3
+EventInstance::setVolume, 2107392, 0.4
+EventInstance::setVolume, 2107392, 0.5
+EventInstance::setVolume, 2107392, 0.6
+EventInstance::setVolume, 2107392, 0.7
+EventInstance::setVolume, 2107392, 0.8
+EventInstance::setVolume, 2107392, 0.9
+EventInstance::start, 2107392
+EventInstance::release, 2107392
+Playback::frame, 8192
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2108160
+EventInstance::setVolume, 2108160, 0
+EventInstance::setVolume, 2108160, 0.1
+EventInstance::setVolume, 2108160, 0.2
+EventInstance::setVolume, 2108160, 0.3
+EventInstance::setVolume, 2108160, 0.4
+EventInstance::setVolume, 2108160, 0.5
+EventInstance::setVolume, 2108160, 0.6
+EventInstance::setVolume, 2108160, 0.7
+EventInstance::setVolume, 2108160, 0.8
+EventInstance::setVolume, 2108160, 0.9
+EventInstance::start, 2108160
+EventInstance::release, 2108160
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2108928
+EventInstance::setVolume, 2108928, 0
+EventInstance::setVolume, 2108928, 0.1
+EventInstance::setVolume, 2108928, 0.2
+EventInstance::setVolume, 2108928, 0.3
+EventInstance::setVolume, 2108928, 0.4
+EventInstance::setVolume, 2108928, 0.5
+EventInstance::setVolume, 2108928, 0.6
+EventInstance::setVolume, 2108928, 0.7
+EventInstance::setVolume, 2108928, 0.8
+EventInstance::setVolume, 2108928, 0.9
+EventInstance::start, 2108928
+EventInstance::release, 2108928
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2109696
+EventInstance::setVolume, 2109696, 0
+EventInstance::setVolume, 2109696, 0.1
+EventInstance::setVolume, 2109696, 0.2
+EventInstance::setVolume, 2109696, 0.3
+EventInstance::setVolume, 2109696, 0.4
+EventInstance::setVolume, 2109696, 0.5
+EventInstance::setVolume, 2109696, 0.6
+EventInstance::setVolume, 2109696, 0.7
+EventInstance::setVolume, 2109696, 0.8
+EventInstance::setVolume, 2109696, 0.9
+EventInstance::start, 2109696
+EventInstance::release, 2109696
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2110464
+EventInstance::setVolume, 2110464, 0
+EventInstance::setVolume, 2110464, 0.1
+EventInstance::setVolume, 2110464, 0.2
+EventInstance::setVolume, 2110464, 0.3
+EventInstance::setVolume, 2110464, 0.4
+EventInstance::setVolume, 2110464, 0.5
+EventInstance::setVolume, 2110464, 0.6
+EventInstance::setVolume, 2110464, 0.7
+EventInstance::setVolume, 2110464, 0.8
+EventInstance::setVolume, 2110464, 0.9
+EventInstance::start, 2110464
+EventInstance::release, 2110464
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2111232
+EventInstance::setVolume, 2111232, 0
+EventInstance::setVolume, 2111232, 0.1
+EventInstance::setVolume, 2111232, 0.2
+EventInstance::setVolume, 2111232, 0.3
+EventInstance::setVolume, 2111232, 0.4
+EventInstance::setVolume, 2111232, 0.5
+EventInstance::setVolume, 2111232, 0.6
+EventInstance::setVolume, 2111232, 0.7
+EventInstance::setVolume, 2111232, 0.8
+EventInstance::setVolume, 2111232, 0.9
+EventInstance::start, 2111232
+EventInstance::release, 2111232
+Playback::frame, 10240
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2112000
+EventInstance::setVolume, 2112000, 0
+EventInstance::setVolume, 2112000, 0.1
+EventInstance::setVolume, 2112000, 0.2
+EventInstance::setVolume, 2112000, 0.3
+EventInstance::setVolume, 2112000, 0.4
+EventInstance::setVolume, 2112000, 0.5
+EventInstance::setVolume, 2112000, 0.6
+EventInstance::setVolume, 2112000, 0.7
+EventInstance::setVolume, 2112000, 0.8
+EventInstance::setVolume, 2112000, 0.9
+EventInstance::start, 2112000
+EventInstance::release, 2112000
+Playback::frame, 31744
+EventInstance::set3DAttributes, 2103296, {{-1,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 10240
+EventInstance::set3DAttributes, 2103296, {{0,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 9216
+EventInstance::set3DAttributes, 2103296, {{1,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 7168
+EventInstance::set3DAttributes, 2103296, {{2,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 7168
+EventInstance::set3DAttributes, 2103296, {{3,0,2},{0,0,0},{0,0,1},{0,1,0}}
+Playback::frame, 6144
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2112768
+EventInstance::setVolume, 2112768, 0
+EventInstance::setVolume, 2112768, 0.1
+EventInstance::setVolume, 2112768, 0.2
+EventInstance::setVolume, 2112768, 0.3
+EventInstance::setVolume, 2112768, 0.4
+EventInstance::setVolume, 2112768, 0.5
+EventInstance::setVolume, 2112768, 0.6
+EventInstance::setVolume, 2112768, 0.7
+EventInstance::setVolume, 2112768, 0.8
+EventInstance::setVolume, 2112768, 0.9
+EventInstance::start, 2112768
+EventInstance::release, 2112768
+Playback::frame, 9216
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2113536
+EventInstance::setVolume, 2113536, 0
+EventInstance::setVolume, 2113536, 0.1
+EventInstance::setVolume, 2113536, 0.2
+EventInstance::setVolume, 2113536, 0.3
+EventInstance::setVolume, 2113536, 0.4
+EventInstance::setVolume, 2113536, 0.5
+EventInstance::setVolume, 2113536, 0.6
+EventInstance::setVolume, 2113536, 0.7
+EventInstance::setVolume, 2113536, 0.8
+EventInstance::setVolume, 2113536, 0.9
+EventInstance::start, 2113536
+EventInstance::release, 2113536
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2114304
+EventInstance::setVolume, 2114304, 0
+EventInstance::setVolume, 2114304, 0.1
+EventInstance::setVolume, 2114304, 0.2
+EventInstance::setVolume, 2114304, 0.3
+EventInstance::setVolume, 2114304, 0.4
+EventInstance::setVolume, 2114304, 0.5
+EventInstance::setVolume, 2114304, 0.6
+EventInstance::setVolume, 2114304, 0.7
+EventInstance::setVolume, 2114304, 0.8
+EventInstance::setVolume, 2114304, 0.9
+EventInstance::start, 2114304
+EventInstance::release, 2114304
+Playback::frame, 7168
+System::getEventByID, {1f687138-e06c-40f5-9bac-57f84bbcedd3}, 2103552
+EventDescription::createInstance, 2103552, 2115072
+EventInstance::setVolume, 2115072, 0
+EventInstance::setVolume, 2115072, 0.1
+EventInstance::setVolume, 2115072, 0.2
+EventInstance::setVolume, 2115072, 0.3
+EventInstance::setVolume, 2115072, 0.4
+EventInstance::setVolume, 2115072, 0.5
+EventInstance::setVolume, 2115072, 0.6
+EventInstance::setVolume, 2115072, 0.7
+EventInstance::setVolume, 2115072, 0.8
+EventInstance::setVolume, 2115072, 0.9
+EventInstance::start, 2115072
+EventInstance::release, 2115072
+Playback::frame, 45056
+Bank::unload, 2101504
+Bank::unload, 2101760
+Bank::unload, 2102016
+Bank::unload, 2102272
+Playback::frame, 2048
+System::flushCommands

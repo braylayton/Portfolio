@@ -1,0 +1,23 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\TinyXml2\TinyXml2.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj' does not exist.
+  Precompiled.cpp
+  Component.cpp
+  GameApp.cpp
+  GameObject.cpp
+  GameObjectFactory.cpp
+  Utility.cpp
+  World.cpp
+B:\Visual_Studio_Projects\SWGE\Core\Inc\HandlePool.h(46,1): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=uint32_t
+          ]
+B:\Visual_Studio_Projects\SWGE\Core\Inc\HandlePool.h(40): message : while compiling class template member function 'SWGE::Core::HandlePool<SWGE::GameEngine::GameObject>::HandlePool(uint32_t)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\memory(3423): message : see reference to function template instantiation 'SWGE::Core::HandlePool<SWGE::GameEngine::GameObject>::HandlePool(uint32_t)' being compiled
+B:\Visual_Studio_Projects\SWGE\Core\Inc\Handle.h(48): message : while compiling class template member function 'bool SWGE::Core::Handle<SWGE::GameEngine::GameObject>::IsValid(void) const'
+B:\Visual_Studio_Projects\SWGE\GameEngine\Src\World.cpp(124): message : see reference to function template instantiation 'bool SWGE::Core::Handle<SWGE::GameEngine::GameObject>::IsValid(void) const' being compiled
+B:\Visual_Studio_Projects\SWGE\GameEngine\Inc\GameObject.h(52): message : see reference to class template instantiation 'SWGE::Core::Handle<SWGE::GameEngine::GameObject>' being compiled
+  Generating Code...
+B:\Visual_Studio_Projects\SWGE\GameEngine\Src\Utility.cpp(50): warning C4715: 'Util::XMLReader::Read': not all control paths return a value
+B:\Visual_Studio_Projects\SWGE\GameEngine\Src\Utility.cpp(156): warning C4715: 'Util::XMLReader::ReadPrimitive': not all control paths return a value
+  GameEngine.vcxproj -> B:\Visual_Studio_Projects\SWGE\x64\Debug\GameEngine.lib

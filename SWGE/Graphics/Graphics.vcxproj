@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Animation.h" />
+    <ClInclude Include="Inc\AnimationBuilder.h" />
+    <ClInclude Include="Inc\AnimationClip.h" />
+    <ClInclude Include="Inc\AnimationModel.h" />
+    <ClInclude Include="Inc\Bone.h" />
+    <ClInclude Include="Inc\BoneAnimation.h" />
+    <ClInclude Include="Inc\DepthMap.h" />
+    <ClInclude Include="Inc\HeightMap.h" />
+    <ClInclude Include="Inc\Camera.h" />
+    <ClInclude Include="Inc\Common.h" />
+    <ClInclude Include="Inc\ConstantBuffer.h" />
+    <ClInclude Include="Inc\Graphics.h" />
+    <ClInclude Include="Inc\GraphicsSystem.h" />
+    <ClInclude Include="Inc\Keyframe.h" />
+    <ClInclude Include="Inc\Light.h" />
+    <ClInclude Include="Inc\Material.h" />
+    <ClInclude Include="Inc\MatrixStack.h" />
+    <ClInclude Include="Inc\Mesh.h" />
+    <ClInclude Include="Inc\MeshBuilder.h" />
+    <ClInclude Include="Inc\Model.h" />
+    <ClInclude Include="Inc\PixelShader.h" />
+    <ClInclude Include="Inc\RasterizerState.h" />
+    <ClInclude Include="Inc\RenderTarget.h" />
+    <ClInclude Include="Inc\Sampler.h" />
+    <ClInclude Include="Inc\SceneNodeInc\CameraNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\ConstantBufferNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\RasterizerStateNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\LightNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\MaterialNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\MeshNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\RenderTargetNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\SamplerNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\SceneManager.h" />
+    <ClInclude Include="Inc\SceneNodeInc\SceneNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\ShaderNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\TextureNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\TransformNode.h" />
+    <ClInclude Include="Inc\ShaderStage.h" />
+    <ClInclude Include="Inc\SimpleDraw.h" />
+    <ClInclude Include="Inc\SkinnedMesh.h" />
+    <ClInclude Include="Inc\Terrain.h" />
+    <ClInclude Include="Inc\Texture.h" />
+    <ClInclude Include="Inc\Types.h" />
+    <ClInclude Include="Inc\VertexShader.h" />
+    <ClInclude Include="Inc\MeshBuffer.h" />
+    <ClInclude Include="Inc\VertexTypes.h" />
+    <ClInclude Include="Src\Precompiled.h" />
+    <ClInclude Include="Inc\Transform.h" />
+    <ClInclude Include="Inc\SceneNodeInc\DepthMapNode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Animation.cpp" />
+    <ClCompile Include="Src\AnimationBuilder.cpp" />
+    <ClCompile Include="Src\AnimationClip.cpp" />
+    <ClCompile Include="Src\AnimationModel.cpp" />
+    <ClCompile Include="Src\BoneAnimation.cpp" />
+    <ClCompile Include="Src\Camera.cpp" />
+    <ClCompile Include="Src\ConstantBuffer.cpp" />
+    <ClCompile Include="Src\DepthMap.cpp" />
+    <ClCompile Include="Src\GraphicsSystem.cpp" />
+    <ClCompile Include="Src\HeightMap.cpp" />
+    <ClCompile Include="Src\MatrixStack.cpp" />
+    <ClCompile Include="Src\Mesh.cpp" />
+    <ClCompile Include="Src\MeshBuffer.cpp" />
+    <ClCompile Include="Src\MeshBuilder.cpp" />
+    <ClCompile Include="Src\Model.cpp" />
+    <ClCompile Include="Src\PixelShader.cpp" />
+    <ClCompile Include="Src\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Src\RasterizerState.cpp" />
+    <ClCompile Include="Src\RenderTarget.cpp" />
+    <ClCompile Include="Src\Sampler.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\CameraNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\ConstantBufferNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\DepthMapNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\LightNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\MaterialNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\MeshNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\RasterizerStateNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\RenderTargetNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\SamplerNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\SceneManager.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\SceneNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\ShaderNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\TextureNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\TransformNode.cpp" />
+    <ClCompile Include="Src\SimpleDraw.cpp" />
+    <ClCompile Include="Src\SkinnedMesh.cpp" />
+    <ClCompile Include="Src\Terrain.cpp" />
+    <ClCompile Include="Src\Texture.cpp" />
+    <ClCompile Include="Src\Transform.cpp" />
+    <ClCompile Include="Src\VertexShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.vcxproj">
+      <Project>{18e5b881-825c-4cb6-a215-72ba8b47e6c4}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\External\DirectXTK\DirectXTK_Desktop_2022.vcxproj">
+      <Project>{e0b52ae7-e160-4d32-bf3f-910b785e5a8e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Input\Input.vcxproj">
+      <Project>{422b1df4-f1a4-4c64-bcdb-3f1baaaaa768}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Math\Math.vcxproj">
+      <Project>{528a854a-8248-4766-8c67-84e888f5dae3}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{2ABAA4EF-A672-4416-A764-540FA782A4CD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Graphics</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src;$(ProjectDir)Inc;$(SolutionDir);$(SolutionDir)External;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src;$(ProjectDir)Inc;$(SolutionDir);$(SolutionDir)External;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src;$(ProjectDir)Inc;$(SolutionDir);$(SolutionDir)External;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)Src;$(ProjectDir)Inc;$(SolutionDir);$(SolutionDir)External;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

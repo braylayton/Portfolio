@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Inc\Common.h" />
+    <ClInclude Include="Inc\Graphics.h" />
+    <ClInclude Include="Src\Precompiled.h" />
+    <ClInclude Include="Inc\GraphicsSystem.h" />
+    <ClInclude Include="Inc\VertexShader.h" />
+    <ClInclude Include="Inc\PixelShader.h" />
+    <ClInclude Include="Inc\MeshBuffer.h" />
+    <ClInclude Include="Inc\VertexTypes.h" />
+    <ClInclude Include="Inc\Camera.h" />
+    <ClInclude Include="Inc\ConstantBuffer.h" />
+    <ClInclude Include="Inc\Mesh.h" />
+    <ClInclude Include="Inc\Sampler.h" />
+    <ClInclude Include="Inc\Texture.h" />
+    <ClInclude Include="Inc\Light.h" />
+    <ClInclude Include="Inc\Material.h" />
+    <ClInclude Include="Inc\MeshBuilder.h" />
+    <ClInclude Include="Inc\HeightMap.h" />
+    <ClInclude Include="Inc\Terrain.h" />
+    <ClInclude Include="Inc\SimpleDraw.h" />
+    <ClInclude Include="Inc\SceneNodeInc\LightNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\CameraNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\SceneManager.h" />
+    <ClInclude Include="Inc\SceneNodeInc\SceneNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\MaterialNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\MeshNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\SamplerNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\ShaderNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\TextureNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\TransformNode.h" />
+    <ClInclude Include="Inc\Types.h" />
+    <ClInclude Include="Inc\Transform.h" />
+    <ClInclude Include="Inc\MatrixStack.h" />
+    <ClInclude Include="Inc\RasterizerState.h" />
+    <ClInclude Include="Inc\SceneNodeInc\RasterizerStateNode.h" />
+    <ClInclude Include="Inc\RenderTarget.h" />
+    <ClInclude Include="Inc\Model.h" />
+    <ClInclude Include="Inc\DepthMap.h" />
+    <ClInclude Include="Inc\SceneNodeInc\DepthMapNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\RenderTargetNode.h" />
+    <ClInclude Include="Inc\SceneNodeInc\ConstantBufferNode.h" />
+    <ClInclude Include="Inc\ShaderStage.h" />
+    <ClInclude Include="Inc\Keyframe.h" />
+    <ClInclude Include="Inc\SkinnedMesh.h" />
+    <ClInclude Include="Inc\Animation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationBuilder.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationClip.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AnimationModel.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Bone.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\BoneAnimation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Precompiled.cpp" />
+    <ClCompile Include="Src\GraphicsSystem.cpp" />
+    <ClCompile Include="Src\VertexShader.cpp" />
+    <ClCompile Include="Src\PixelShader.cpp" />
+    <ClCompile Include="Src\MeshBuffer.cpp" />
+    <ClCompile Include="Src\Camera.cpp" />
+    <ClCompile Include="Src\ConstantBuffer.cpp" />
+    <ClCompile Include="Src\Mesh.cpp" />
+    <ClCompile Include="Src\Sampler.cpp" />
+    <ClCompile Include="Src\Texture.cpp" />
+    <ClCompile Include="Src\MeshBuilder.cpp" />
+    <ClCompile Include="Src\HeightMap.cpp" />
+    <ClCompile Include="Src\Terrain.cpp" />
+    <ClCompile Include="Src\SimpleDraw.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\CameraNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\SceneManager.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\SceneNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\LightNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\MaterialNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\MeshNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\SamplerNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\TransformNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\TextureNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\ShaderNode.cpp" />
+    <ClCompile Include="Src\MatrixStack.cpp" />
+    <ClCompile Include="Src\Transform.cpp" />
+    <ClCompile Include="Src\RasterizerState.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\RasterizerStateNode.cpp" />
+    <ClCompile Include="Src\RenderTarget.cpp" />
+    <ClCompile Include="Src\Model.cpp" />
+    <ClCompile Include="Src\DepthMap.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\RenderTargetNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\DepthMapNode.cpp" />
+    <ClCompile Include="Src\SceneNodeSrc\ConstantBufferNode.cpp" />
+    <ClCompile Include="Src\SkinnedMesh.cpp" />
+    <ClCompile Include="Src\Animation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationBuilder.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationModel.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\AnimationClip.cpp" />
+    <ClCompile Include="Src\BoneAnimation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{5e60b058-935d-4fc7-ba45-03cf199247c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

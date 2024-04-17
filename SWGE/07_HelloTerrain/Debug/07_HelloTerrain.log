@@ -1,0 +1,5 @@
+﻿  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\07_HelloTerrain\GameApp.cpp(107,66): error C2660: 'SWGE::Graphics::Camera::GetPerspectiveMatrix': function does not take 2 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\Camera.h(39,16): message : see declaration of 'SWGE::Graphics::Camera::GetPerspectiveMatrix'
+  WinMain.cpp
+  Generating Code...

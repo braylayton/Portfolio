@@ -1,0 +1,53 @@
+﻿  MemoryStream.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C2143: syntax error: missing ';' before '&'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,30): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(13,16): error C2061: syntax error: identifier 'MemoryStream'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'
+B:\Visual_Studio_Projects\SWGE\Networking\Src\MemoryStream.cpp(10,1): error C2143: syntax error: missing ';' before '}'
+B:\Visual_Studio_Projects\SWGE\Networking\Src\MemoryStream.cpp(16,38): error C2059: syntax error: ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Src\MemoryStream.cpp(16,38): error C2143: syntax error: missing '(' before ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Src\MemoryStream.cpp(16,39): error C2059: syntax error: ')'
+  Address.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C2143: syntax error: missing ';' before '&'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,30): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(13,16): error C2061: syntax error: identifier 'MemoryStream'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'
+  InputMemoryBitStream.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C2143: syntax error: missing ';' before '&'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,30): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(13,16): error C2061: syntax error: identifier 'MemoryStream'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'
+  OutputMemoryBitStream.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C2143: syntax error: missing ';' before '&'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,30): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(13,16): error C2061: syntax error: identifier 'MemoryStream'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'
+  Socket.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C2143: syntax error: missing ';' before '&'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,30): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(13,16): error C2061: syntax error: identifier 'MemoryStream'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'
+  SocketAddress.cpp
+  StreamWriter.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'
+  TCPSocket.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Src\TCPSocket.cpp(37,11): warning C4305: 'return': truncation from 'int' to 'bool'
+B:\Visual_Studio_Projects\SWGE\Networking\Src\TCPSocket.cpp(41,11): warning C4305: 'return': truncation from 'int' to 'bool'
+B:\Visual_Studio_Projects\SWGE\Networking\Src\TCPSocket.cpp(45,11): warning C4305: 'return': truncation from 'int' to 'bool'
+  UDPSocket.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Src\UDPSocket.cpp(74,3): warning C4477: '_snprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int (__stdcall *)(void)'
+  Generating Code...
+B:\Visual_Studio_Projects\SWGE\Networking\Src\TCPSocket.cpp(25): warning C4715: 'SWGE::Networking::TCPSocket::Open': not all control paths return a value
+B:\Visual_Studio_Projects\SWGE\Networking\Src\TCPSocket.cpp(50): warning C4700: uninitialized local variable 'sock' used
+B:\Visual_Studio_Projects\SWGE\Networking\Src\SocketAddress.cpp(35): warning C4172: returning address of local variable or temporary: buffer

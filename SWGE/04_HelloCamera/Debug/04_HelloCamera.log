@@ -1,0 +1,5 @@
+﻿  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\04_HelloCamera\GameApp.cpp(157,74): error C2660: 'SWGE::Graphics::MeshBuffer::Render': function does not take 3 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\MeshBuffer.h(30,7): message : see declaration of 'SWGE::Graphics::MeshBuffer::Render'
+  WinMain.cpp
+  Generating Code...

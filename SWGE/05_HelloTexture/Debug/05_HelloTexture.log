@@ -1,0 +1,6 @@
+﻿  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\05_HelloTexture\GameApp.cpp(137,34): error C2661: 'SWGE::Graphics::MeshBuffer::Initialize': no overloaded function takes 1 arguments
+B:\Visual_Studio_Projects\SWGE\05_HelloTexture\GameApp.cpp(212,66): error C2660: 'SWGE::Graphics::Camera::GetPerspectiveMatrix': function does not take 2 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\Camera.h(39,16): message : see declaration of 'SWGE::Graphics::Camera::GetPerspectiveMatrix'
+  WinMain.cpp
+  Generating Code...

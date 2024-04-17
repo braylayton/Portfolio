@@ -1,0 +1,15 @@
+﻿  GameApp.cpp
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(44,34): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(48,34): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(52,34): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(62,35): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(66,34): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(83,35): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(87,35): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(99,35): warning C4305: 'argument': truncation from 'double' to 'float'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(169,22): error C2660: 'SWGE::Graphics::VertexShader::Initialize': function does not take 0 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\VertexShader.h(15,7): message : see declaration of 'SWGE::Graphics::VertexShader::Initialize'
+B:\Visual_Studio_Projects\SWGE\02_HelloTriangle\GameApp.cpp(175,22): error C2660: 'SWGE::Graphics::PixelShader::Initialize': function does not take 0 arguments
+B:\Visual_Studio_Projects\SWGE\Graphics\Inc\PixelShader.h(17,7): message : see declaration of 'SWGE::Graphics::PixelShader::Initialize'
+  WinMain.cpp
+  Generating Code...

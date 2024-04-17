@@ -1,0 +1,8 @@
+﻿  MathTest.cpp
+B:\Visual_Studio_Projects\SWGE\Math\Inc\Vector3.h(88,3): error C3861: 'VERIFY': identifier not found
+B:\Visual_Studio_Projects\SWGE\Math\Inc\Vector3.h(93,3): error C3861: 'VERIFY': identifier not found
+B:\Visual_Studio_Projects\SWGE\Math\Inc\Vector2.h(62,3): error C3861: 'VERIFY': identifier not found
+B:\Visual_Studio_Projects\SWGE\Math\Inc\Vector2.h(67,3): error C3861: 'VERIFY': identifier not found
+B:\Visual_Studio_Projects\SWGE\Math\Inc\Quaternion.h(22,44): error C3861: 'VERIFY': identifier not found
+B:\Visual_Studio_Projects\SWGE\Math\Inc\Quaternion.h(35,40): error C3861: 'VERIFY': identifier not found
+B:\Visual_Studio_Projects\SWGE\Math\Inc\QMath.h(207,2): error C3861: 'ASSERT': identifier not found

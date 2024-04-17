@@ -1,0 +1,4 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\TinyXml2\TinyXml2.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj' does not exist.
+  GameApp.cpp
+  AnimationDemo.vcxproj -> B:\Visual_Studio_Projects\SWGE\x64\Debug\AnimationDemo.exe

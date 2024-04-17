@@ -1,0 +1,2 @@
+﻿  Utility.cpp
+B:\Visual_Studio_Projects\SWGE\GameEngine\Src\Utility.cpp(157,1): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "Precompiled.h"' to your source?

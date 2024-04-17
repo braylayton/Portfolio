@@ -1,0 +1,7 @@
+﻿  NetworkingTest.cpp
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C2143: syntax error: missing ';' before '&'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(11,30): error C2238: unexpected token(s) preceding ';'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\StreamWriter.h(13,16): error C2061: syntax error: identifier 'MemoryStream'
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(21,28): error C2535: 'uint32_t SWGE::Networking::MemoryStream::GetHead(void) const': member function already defined or declared
+B:\Visual_Studio_Projects\SWGE\Networking\Inc\MemoryStream.h(20): message : see declaration of 'SWGE::Networking::MemoryStream::GetHead'

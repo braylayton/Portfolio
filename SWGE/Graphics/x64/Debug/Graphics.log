@@ -1,0 +1,68 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj' does not exist.
+  Precompiled.cpp
+  Animation.cpp
+  AnimationBuilder.cpp
+  AnimationClip.cpp
+  AnimationModel.cpp
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(87,49): warning C4312: 'reinterpret_cast': conversion from 'int' to 'char *' of greater size
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(88,54): warning C4312: 'reinterpret_cast': conversion from 'int' to 'char *' of greater size
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(107,53): warning C4312: 'reinterpret_cast': conversion from '_Ty2' to 'char *' of greater size
+          with
+          [
+              _Ty2=uint32_t
+          ]
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(169,58): warning C4312: 'reinterpret_cast': conversion from '_Ty' to 'char *' of greater size
+          with
+          [
+              _Ty=int
+          ]
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(178,48): warning C4312: 'reinterpret_cast': conversion from 'int' to 'char *' of greater size
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(179,53): warning C4312: 'reinterpret_cast': conversion from 'int' to 'char *' of greater size
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\AnimationModel.cpp(203,44): warning C4312: 'reinterpret_cast': conversion from 'uint32_t' to 'char *' of greater size
+  BoneAnimation.cpp
+  Camera.cpp
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\Camera.cpp(165,33): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  ConstantBuffer.cpp
+  DepthMap.cpp
+  GraphicsSystem.cpp
+  HeightMap.cpp
+  MatrixStack.cpp
+  Mesh.cpp
+  MeshBuffer.cpp
+  MeshBuilder.cpp
+  Model.cpp
+  PixelShader.cpp
+  RasterizerState.cpp
+  RenderTarget.cpp
+  Sampler.cpp
+  CameraNode.cpp
+  Generating Code...
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\MatrixStack.cpp(36): warning C4172: returning address of local variable or temporary
+  Compiling...
+  ConstantBufferNode.cpp
+  DepthMapNode.cpp
+  LightNode.cpp
+  MaterialNode.cpp
+  MeshNode.cpp
+  RasterizerStateNode.cpp
+  RenderTargetNode.cpp
+  SamplerNode.cpp
+  SceneManager.cpp
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\SceneNodeSrc\SceneManager.cpp(170,41): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\SceneNodeSrc\SceneManager.cpp(170,41): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data
+  SceneNode.cpp
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\SceneNodeSrc\SceneNode.cpp(35,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\SceneNodeSrc\SceneNode.cpp(35,47): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\SceneNodeSrc\SceneNode.cpp(49,47): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data
+B:\Visual_Studio_Projects\SWGE\Graphics\Src\SceneNodeSrc\SceneNode.cpp(49,47): warning C4267: 'initializing': conversion from 'size_t' to 'const uint32_t', possible loss of data
+  ShaderNode.cpp
+  TextureNode.cpp
+  TransformNode.cpp
+  SimpleDraw.cpp
+  SkinnedMesh.cpp
+  Terrain.cpp
+  Texture.cpp
+  Transform.cpp
+  VertexShader.cpp
+  Generating Code...
+  Graphics.vcxproj -> B:\Visual_Studio_Projects\SWGE\x64\Debug\Graphics.lib

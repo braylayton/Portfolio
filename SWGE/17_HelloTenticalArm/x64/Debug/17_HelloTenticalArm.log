@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\TinyXml2\TinyXml2.vcxproj' does not exist.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2066,5): warning : The referenced project '..\External\DirectXTK\DirectXTK_Desktop_2017.vcxproj' does not exist.
+  GameApp.cpp
+GameApp.obj : error LNK2019: unresolved external symbol "public: static void __cdecl SWGE::Graphics::MeshBuilder::CreateCylinderSkinned(class SWGE::Graphics::SkinnedMesh &,float,unsigned int,unsigned int,struct SWGE::Math::Vector3)" (?CreateCylinderSkinned@MeshBuilder@Graphics@SWGE@@SAXAEAVSkinnedMesh@23@MIIUVector3@Math@3@@Z) referenced in function "private: virtual void __cdecl GameApp::OnInitialize(void)" (?OnInitialize@GameApp@@EEAAXXZ)
+B:\Visual_Studio_Projects\SWGE\x64\Debug\17_HelloTenticalArm.exe : fatal error LNK1120: 1 unresolved externals
